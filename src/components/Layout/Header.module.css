@@ -1,0 +1,31 @@
+
+.app-header {
+  background-color: rgb(130, 0, 0);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-header p,
+.login{
+  margin: auto 1rem;
+}
+
+.app-header p{
+  font-weight: bold;
+}
+
+.login{
+  background-color: rgb(255, 226, 0);
+  padding: 0.5rem 1rem;
+  border-radius: .5rem;
+  border: none;
+}
+
+.login:active{
+  background-color: rgb(150, 140, 0);
+}
