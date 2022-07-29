@@ -1,6 +1,6 @@
 
 .app-header {
-  background-color: rgb(130, 0, 0);
+  background-color: #262626;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -10,7 +10,7 @@
   color: white;
 }
 
-.app-header p,
+.app-header img,
 .login{
   margin: auto 1rem;
 }
@@ -20,7 +20,7 @@
 }
 
 .login{
-  background-color: rgb(255, 226, 0);
+  background-color: rgba(194, 184, 126, 0.823);
   padding: 0.5rem 1rem;
   border-radius: .5rem;
   border: none;
